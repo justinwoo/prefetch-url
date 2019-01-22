@@ -1,0 +1,6 @@
+sudo: required
+dist: trusty
+language: nix
+script:
+  - nix-env -f default.nix -i
+  - prefetch-url https://github.com/jwilm/alacritty/releases/download/v0.2.7/Alacritty-v0.2.7-x86_64.tar.gz
