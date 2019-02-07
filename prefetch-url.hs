@@ -39,9 +39,9 @@ main = do
 
 helpMessage :: String
 helpMessage = "\
-\ prefetch-url: a utility for getting a nix set expression for a given url and its sha.\n\
+\prefetch-url: a utility for getting a nix set expression for a given url and its sha.\n\
 \\n\
-\ Usage: prefetch-url <url>"
+\Usage: prefetch-url <url>"
 
 prepareOutput :: URL -> SHA -> String
 prepareOutput (URL url) (SHA sha) = "\
