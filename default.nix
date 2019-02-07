@@ -7,6 +7,7 @@ pkgs.stdenv.mkDerivation {
 
   buildInputs = [
     pkgs.makeWrapper
+    pkgs.ghc
   ];
 
   installPhase = ''
